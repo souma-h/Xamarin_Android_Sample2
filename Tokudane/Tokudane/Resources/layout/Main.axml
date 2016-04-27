@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="値段"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView3"
+            android:layout_marginRight="67.5dp" />
+        <TextView
+            android:text="数量"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView4"
+            android:layout_marginRight="62.0dp" />
+        <TextView
+            android:text="単価"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2">
+        <EditText
+            android:inputType="number"
+            android:id="@+id/e_price_1"
+            android:layout_width="91.0dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView1"
+            android:gravity="center_vertical" />
+        <EditText
+            android:inputType="number"
+            android:layout_width="91.0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/e_quantity_1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView2"
+            android:gravity="center_vertical" />
+        <EditText
+            android:inputType="number"
+            android:layout_width="91.0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/e_unitprice_1"
+            android:enabled="false" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/t_lowplece_1"
+            android:textColor="@android:color/holo_red_light"
+            android:gravity="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3">
+        <EditText
+            android:inputType="number"
+            android:id="@+id/e_price_2"
+            android:layout_width="91.0dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical" />
+        <EditText
+            android:inputType="number"
+            android:layout_width="91.0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/e_quantity_2" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical" />
+        <EditText
+            android:inputType="number"
+            android:layout_width="91.0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/e_unitprice_2"
+            android:enabled="false" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/t_lowplece_2"
+            android:textColor="@android:color/holo_red_light"
+            android:gravity="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout4">
+        <EditText
+            android:inputType="number"
+            android:id="@+id/e_price_3"
+            android:layout_width="91.0dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical" />
+        <EditText
+            android:inputType="number"
+            android:layout_width="91.0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/e_quantity_3" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical" />
+        <EditText
+            android:inputType="number"
+            android:layout_width="91.0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/e_unitprice_3"
+            android:enabled="false" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/t_lowplece_3"
+            android:textColor="@android:color/holo_red_light"
+            android:gravity="center" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/MyButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="実行" />
+</LinearLayout>
